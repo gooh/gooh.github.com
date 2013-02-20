@@ -2,7 +2,6 @@
 
 layout: post
 title: The DOM Goodie in PHP 5.3.6
-tagline: false
 tags: [php, xml]
 
 ---
@@ -13,17 +12,17 @@ PHP 5.3.6 has been released today. There is a lot of improvement and bugfixes th
 
 If you have worked with [DOM][6] before, you know that this will ease working with broken HTML a lot, because now you can do
 
-```php
-$dom = new DOMDocument;
-$dom->loadHtml('<div id="content"><p>Some<br>HTML Fragment</p></div>');
-echo $dom->saveHTML($dom->getElementById('content'));
-```
+~~~ php
+    $dom = new DOMDocument;
+    $dom->loadHtml('<div id="content"><p>Some<br>HTML Fragment</p></div>');
+    echo $dom->saveHTML($dom->getElementById('content'));
+~~~
 
 and get
 
-```html
-<div id="content"><p>Some<br>HTML Fragment</p></div>
-```
+~~~ html
+    <div id="content"><p>Some<br>HTML Fragment</p></div>
+~~~
 
 ## Why is it cool?
 
@@ -33,16 +32,16 @@ The good news is: despite common misbeliefs, DOM can also parse broken HTML. Whe
 
 The bad news is: when using the HTML Parser Module, libxml will also add a basic HTML skeleton to make sure it can parse the HTML somehow. This is a nasty unobvious side-effect, because when traversing the DOM with
 
-```php
-echo $dom->documentElement->firstChild->nodeName;
-```
+~~~ php
+    echo $dom->documentElement->firstChild->nodeName;
+~~~
 
 you would expect it to output 'p', but it will output 'body'. Consequently, when we used `saveHTML()`, we would get the following output (shortened DocType for readability):
 
-```html
-<!DOCTYPE html PUBLIC "blah">
-<html><body><div id="content"><p>Some<br>HTML Fragment</p></div></body></html>
-```
+~~~ html
+    <!DOCTYPE html PUBLIC "blah">
+    <html><body><div id="content"><p>Some<br>HTML Fragment</p></div></body></html>
+~~~
 
 To make matters worse: with `saveXML()` you can pass in a node to be dumped. With `saveHtml()` you couldn't (until now). So when you were dealing with HTML fragments, you had no way to get just a particular node or fragment back from DOM. You could get all or nothing. The only two options you had was [manually removing the HTML skeleton somehow][4] or dump the wanted nodes with saveXml instead. Using saveXml had the problem that it would format any markup according to XML rules as well, so `<br>` would become `<br/>`. If you didn't intend your markup to be XHTML, this is unwanted.
 

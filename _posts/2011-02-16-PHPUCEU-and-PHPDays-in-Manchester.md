@@ -2,7 +2,6 @@
 
 layout: post
 title: PHPUCEU and PHPDays in Manchester
-tagline: false
 tags: [php, conferences]
 
 ---

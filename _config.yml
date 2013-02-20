@@ -5,9 +5,15 @@ permalink: /:year-:month-:day-:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
+markdown: kramdown
+
+kramdown:
+  use_coderay: true
+  coderay_line_numbers: inline
+
 
 # Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
+# so be sure to set them if your themi uses them.
 #
 title : gooh's weblog
 tagline: Agile Webdevelopment and PHP

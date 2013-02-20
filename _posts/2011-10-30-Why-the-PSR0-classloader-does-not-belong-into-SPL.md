@@ -2,7 +2,6 @@
 
 layout: post
 title: Why the PSR-0 Classloader does not belong into SPL
-tagline: false
 tags: [php, spl, internals, politics]
 
 ---

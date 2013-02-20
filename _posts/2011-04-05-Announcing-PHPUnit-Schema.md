@@ -2,7 +2,6 @@
 
 layout: post
 title: Announcing PHPUnit Schema
-tagline: false
 tags: [php, testing, phpunit, xml, tools]
 
 ---
@@ -12,13 +11,13 @@ When working with [PHPUnit's XML Config file][1], it can be somewhat tedious to 
 ## Usage
 To apply the Schema to a configuration file, you have to declare the Schema Namespace and the location of the Schema file in the phpunit.xml file. Since PHPUnit does not use a dedicated namespace for the configuration file, the following two lines are all that is required:
 
-```xml
-<?xml version="1.0" encoding="UTF-8">
-<phpunit
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="location of xsd file"
+~~~ xml
+    <?xml version="1.0" encoding="UTF-8">
+    <phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="location of xsd file"
     …
-```
+~~~
 
 Assuming you are working with a Schema-aware editor (like Eclipse) you should get Content Assist and limited Code Completion then:
 
@@ -31,6 +30,7 @@ The Schema file is currently split into multiple smaller files. This eases maint
     $ php generate-schema.php
     Created new validated Schema file at:
     F:\Work\code\PHPUnit-Schema\tools\phpunit.xsd.1301999633
+
 
   [1]: http://www.phpunit.de/manual/current/en/appendixes.configuration.html
   [2]: https://github.com/gooh/phpunit-schema

@@ -2,7 +2,6 @@
 
 layout: post
 title: Becoming a Zend Certified Engineer 5.3
-tagline: false
 tags: [php, certification]
 
 ---

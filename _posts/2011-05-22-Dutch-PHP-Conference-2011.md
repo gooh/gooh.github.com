@@ -2,7 +2,6 @@
 
 layout: post
 title: DPC 2011
-tagline: false
 tags: [php, conferences]
 
 ---
