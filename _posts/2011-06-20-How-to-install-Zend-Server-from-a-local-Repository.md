@@ -1,9 +1,12 @@
 ---
+
 layout: post
 title: How to install Zend Server from a local Repository
 tagline: a guide for the perplexed
 categories: [linux, zend, guide]
+
 ---
+
 The following is a guide to do a manual install of Zend Server on RHEL 5/6. I needed this solution because I had to install Zend Server on a machine in an intranet with no WAN and the Zend Website only offered an RPM installer that required an internet connection.
 
 *Disclaimer: Note that the solution below worked for me. It doesn't mean it will work for you. If you break something in the process, it's not my fault. When in doubt, buy Zend Support.*

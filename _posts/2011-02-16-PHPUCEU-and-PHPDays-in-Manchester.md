@@ -1,9 +1,12 @@
 ---
+
 layout: post
 title: PHPUCEU and PHPDays in Manchester
-tagline:
+tagline: false
 categories: [php, conferences]
+
 ---
+
 I had the pleasure to attend the first [PHP Unconference Europe][1] and the [PHP Days in Manchester][2]. I knew there would be a couple of people I wanted to meet in person. Also, I've never been to Manchester before. So I decided I had to go. Happy I did, because I had a great time.
 
 ### Warm-Up

@@ -1,9 +1,12 @@
 ---
+
 layout: post
 title: The DOM Goodie in PHP 5.3.6
-tagline:
+tagline: false
 categories: [php, xml]
+
 ---
+
 PHP 5.3.6 has been released today. There is a lot of improvement and bugfixes that are worth mentioning. But the one that made me particularly excited was this one:
 
 > Implemented [FR #39771][1] (Made DOMDocument::saveHTML accept an optional DOMNode like DOMDocument::saveXML). (Gustavo)
