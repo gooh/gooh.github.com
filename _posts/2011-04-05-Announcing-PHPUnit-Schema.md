@@ -11,13 +11,12 @@ When working with [PHPUnit's XML Config file][1], it can be somewhat tedious to 
 ## Usage
 To apply the Schema to a configuration file, you have to declare the Schema Namespace and the location of the Schema file in the phpunit.xml file. Since PHPUnit does not use a dedicated namespace for the configuration file, the following two lines are all that is required:
 
-~~~ xml
+{:.prettyprint .linenums .lang-xml}
     <?xml version="1.0" encoding="UTF-8">
     <phpunit
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="location of xsd file"
     …
-~~~
 
 Assuming you are working with a Schema-aware editor (like Eclipse) you should get Content Assist and limited Code Completion then:
 
