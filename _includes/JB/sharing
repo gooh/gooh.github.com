@@ -11,7 +11,7 @@
 	{% when 'linkedin' %}
   		{% include JB/sharing-providers/linkedin %}
 	{% when 'hackernews' %}
-  		{% include JB/sharing-providers/hn %}
+  		{% include JB/sharing-providers/hackernews %}
   {% endcase %}
 {% endfor %}
 
