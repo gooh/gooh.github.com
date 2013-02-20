@@ -3,7 +3,7 @@
 layout: post
 title: Why Singletons have no use in PHP
 tagline: unless you know what you are doing
-categories: [oop, design-patterns, php]
+tags: [oop, design-patterns, php]
 
 ---
 

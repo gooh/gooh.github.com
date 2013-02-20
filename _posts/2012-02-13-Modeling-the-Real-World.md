@@ -3,7 +3,7 @@
 layout: post
 title: Modeling the Real World
 tagline: a guide
-categories: [ood, modeling, ddd, usecases, guide]
+tags: [ood, modeling, ddd, usecases, guide]
 
 ---
 

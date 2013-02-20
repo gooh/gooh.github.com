@@ -3,7 +3,7 @@
 layout: post
 title: Announcing PHPUnit Schema
 tagline: false
-categories: [php, testing, phpunit, xml, tools]
+tags: [php, testing, phpunit, xml, tools]
 
 ---
 

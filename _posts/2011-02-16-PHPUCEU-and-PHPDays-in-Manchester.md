@@ -3,7 +3,7 @@
 layout: post
 title: PHPUCEU and PHPDays in Manchester
 tagline: false
-categories: [php, conferences]
+tags: [php, conferences]
 
 ---
 

@@ -3,7 +3,7 @@
 layout: post
 title: Iterating File Contents with SPL
 tagline: false
-categories: [php, spl, oop, files]
+tags: [php, spl, oop, files]
 
 ---
 

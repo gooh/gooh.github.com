@@ -3,7 +3,7 @@
 layout: post
 title: How to install Zend Server from a local Repository
 tagline: a guide for the perplexed
-categories: [linux, zend, guide]
+tags: [linux, zend, guide]
 
 ---
 

@@ -3,7 +3,7 @@
 layout: post
 title: The DOM Goodie in PHP 5.3.6
 tagline: false
-categories: [php, xml]
+tags: [php, xml]
 
 ---
 
