@@ -38,20 +38,21 @@ You now have all the required files. Move the mirrored rpm folder to some conven
 
 Modify `zend.rpm.repo` to read the following:
 
-    ```ini
-    [Zend]
-    name=Zend Server
-    baseurl=file:///opt/zend-server/rpm/$basearch
-    enabled=1
-    gpgcheck=0
-    gpgkey=http://repos.zend.com/zend.key
+```ini
+[Zend]
+name=Zend Server
+baseurl=file:///opt/zend-server/rpm/$basearch
+enabled=1
+gpgcheck=0
+gpgkey=http://repos.zend.com/zend.key
 
-    [Zend_noarch]
-    name=Zend Server - noarch
-    baseurl=file:///opt/zend-server/rpm/noarch
-    enabled=1
-    gpgcheck=0
-    gpgkey=http://repos.zend.com/zend.key
+[Zend_noarch]
+name=Zend Server - noarch
+baseurl=file:///opt/zend-server/rpm/noarch
+enabled=1
+gpgcheck=0
+gpgkey=http://repos.zend.com/zend.key
+```
 
 ##Step 4 - Install from the local repository
 
