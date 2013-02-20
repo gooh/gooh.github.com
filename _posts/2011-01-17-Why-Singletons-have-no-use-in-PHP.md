@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Why Singletons have no use in PHP
+tagline: unless you know what you are doing
+categories: [oop, design-patterns, php]
 ---
 I am pretty sure everyone working professionally or semi-professionally has heard, seen or worked with a [Singleton][1] before in one way or the other. For those of you who never heard of it, let me reiterate the purpose of that [Design Pattern][2]:
 

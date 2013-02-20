@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Announcing PHPUnit Schema
+tagline:
+categories: [php, testing, phpunit, xml, tools]
 ---
 When working with [PHPUnit's XML Config file][1], it can be somewhat tedious to remember all the possible configuration elements and how they should be written. For this purpose, I have assembled a PHPUnit Schema file to assist in authoring PHPUnit configuration files. And since I figured I am not the only one who could find that useful, I decided to share with you. [The PHPUnit-Schema is available on GitHub][2]. Contributions and corrections are welcome. If you want to participate in maintaining and/or improving the file, feel free to fork at will. Pull requests are always welcome.
 

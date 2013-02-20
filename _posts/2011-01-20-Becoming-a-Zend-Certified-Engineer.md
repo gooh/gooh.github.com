@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Becoming a Zend Certified Engineer 5.3
+tagline:
+categories: [php, certification]
 ---
 I took and passed the Zend Certified Engineer PHP 5.3 exam recently at my local Pearson Vue Test Center. I bought the certification bundle in early 2010 already. But due to a limited time budget, taking the exam had to wait until early January 2011. Now I can pride myself with … well, with having passed it. Or as the certificate puts it
 

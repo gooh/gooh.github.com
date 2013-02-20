@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Why the PSR-0 Classloader does not belong into SPL
+tagline:
+categories: [php, spl, internals, politics]
 ---
 
 There is currently an [RFC in the PHP Wiki proposed by the PSR Standards Group about

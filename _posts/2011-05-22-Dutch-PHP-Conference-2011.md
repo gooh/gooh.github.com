@@ -1,6 +1,8 @@
 ---
 layout: post
 title: DPC 2011
+tagline:
+categories: [php, conferences]
 ---
 
 From [May 18th to May 21st I was at DPC][10] in lovely Amsterdam. The line-up for this

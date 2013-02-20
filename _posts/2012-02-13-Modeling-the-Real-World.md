@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Modeling the Real World
+tagline:
+categories: [ood, modeling, ddd, usecases]
 ---
 
 A few days ago, I was asked by [@__edorian][edo] whether I'd agree to the statement that developers model the real world. I considered the question briefly and then [replied][tweet]
