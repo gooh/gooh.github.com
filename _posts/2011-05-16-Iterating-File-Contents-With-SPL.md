@@ -6,6 +6,7 @@ title: Iterating File Contents with SPL
 I noticed a lot of people are still using the classic filepointer approach to read a file line by line:
 
 ``` php
+<?php
 $handle = fopen ("file.txt", "r");
 while (!feof($handle)) {
     $buffer = fgets($handle);
@@ -17,6 +18,7 @@ fclose ($handle);
 While there is nothing wrong with doing things the old school way, PHP also offers `SplFileObject` for quite some time now:
 
 ```php
+<?php
 $file = new SplFileObject("file.txt");
 while (!$file->eof()) {
     echo $file->fgets();
@@ -28,6 +30,7 @@ Not only does this shorten your code by two lines, but it also let's you work wi
 If that's not enough reason to switch already, `SplFileObject` also implements the `Iterator` interface, which means you can shorten the above code to a simple `foreach` loop:
 
 ```php
+<?php
 foreach (new SplFileObject("file.txt") as $lineNumber => $content) {
     printf("Line %d: %s", $lineNumber, $content);
 }
@@ -35,15 +38,16 @@ foreach (new SplFileObject("file.txt") as $lineNumber => $content) {
 
 There is more. Because `SplFileObject` also implements `SeekableIterator` you can easily jump to specific lines without having to count lines via some temp variable in your loop. How much more convenient can it get?
 
-```php
+~~~ php
 $file = new SplFileObject("file.txt");
 $file->seek(9);        // zero-based, so it's line 10
 echo $file->current(); // outputs line 10
-```
+~~~
 
 And of course you can stack an `SplFileObject` into other Iterators, for instance the `LimitIterator` to limit how many lines should be iterated over:
 
 ```php
+<?php
 $linesTenToTwentyIterator = new LimitIterator(
     new SplFileObject("file.txt"),
     9, // start at line 10
