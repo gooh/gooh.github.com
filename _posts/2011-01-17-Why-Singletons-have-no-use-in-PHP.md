@@ -9,16 +9,16 @@ I am pretty sure everyone working professionally or semi-professionally has hear
 
 You'll often find Singletons as wrappers around database adapters to limit the amount of connections. Another popular use is to make Front Controllers or a Registry into Singletons.
 
-### Implementing Singletons
+## Implementing Singletons
 
 ![UML diagram for a Singleton in PHP](http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-02-14/jpHEcldfsCfkDDhxfnEuAsiHqqzGgqgksqlxJGGtlyHBwwGidjBGjvpykeuj/Singleton.gif.thumb100.gif?content_part=ImwpIkmEGkfjnyHgJnHg)
 
 Unlike some other patterns, creating a Singleton is easy.
 
 - Add a static `getInstance()` method to allow global access.
- - Call the Singleton's constructor on first call
- - Assign the newly created instance to the $instance property.
- - Return `$instance` on subsequent calls.
+  - Call the Singleton's constructor on first call
+  - Assign the newly created instance to the static `$instance` property.
+  - Return `$instance` on subsequent calls.
 - Make `__construct()` private to prevent direct instantiation from outside.
 - Make `__clone()` private to prevent cloning from outside.
 - Make `__wakeup()` private to prevent deserializing from outside.

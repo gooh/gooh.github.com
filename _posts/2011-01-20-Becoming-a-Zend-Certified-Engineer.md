@@ -21,7 +21,7 @@ Tell me more about the exam
 
 [The exam is a collection of 70 questions, covering a good range of PHP and web-related topics][4]. The questions are either multiple choice or free input. Question tasks include analyzing code snippets for what they are doing. Or they might ask for appropriate functions, methods or interfaces applicable in a given scenario. There is also the occasional question about Design Patterns (at least in the Mock Exams).
 
-Unfortunately, there is also a good portion of what I like to call "memo-questions". These will ask you about argument order or which variation of a function name exists. Personally, I find those type of questions completely pointless. If I forgot whether the $haystack or the $needle comes first, I know where to look. Same for function names. Those questions should definitely be ditched.
+Unfortunately, there is also a good portion of what I like to call "memo-questions". These will ask you about argument order or which variation of a function name exists. Personally, I find those type of questions completely pointless. If I forgot whether the `$haystack` or the `$needle` comes first, I know where to look. Same for function names. Those questions should definitely be ditched.
 
 You do not get penalized for wrong answers. If you don't know an answer, guess. To my knowledge, the questions are picked randomly, so no test is alike. There is some logic that makes sure you get a certain amount of questions from certain areas. Somehow they have to make sure this is a PHP 5.3 exam, right?
 
@@ -40,11 +40,11 @@ What others had to say
 
 Find out how other developers think about the Zend Certified Engineer 5.3 exam and how they prepared for it:
 
-    [Michelangelo van Dam: Preparing for php 5.3 certification exam][6]
-    [Steven Lloyd Watkin: Zend Certified Engineer (ZCE) 5.3][7]
-    [Lorna "lornajane" Mitchell: Preparing for ZCE 5.3][8]
-    [DevZone: Passing the ZCE PHP 5.3 certification exam!][9]
-    [Sjoerd Maessen: Passing the PHP 5.3 ZCE exam][10]
+- [Michelangelo van Dam: Preparing for php 5.3 certification exam][6]
+- [Steven Lloyd Watkin: Zend Certified Engineer (ZCE) 5.3][7]
+- [Lorna "lornajane" Mitchell: Preparing for ZCE 5.3][8]
+- [DevZone: Passing the ZCE PHP 5.3 certification exam!][9]
+- [Sjoerd Maessen: Passing the PHP 5.3 ZCE exam][10]
 
 [1]: http://stackoverflow.com/questions/4277608/what-do-i-need-to-know-before-i-can-call-myself-a-php-programmer/4277696#4277696
 [2]: http://www.zend.com/en/services/certification/faq#faq15

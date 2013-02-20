@@ -4,11 +4,11 @@ title: PHPUCEU and PHPDays in Manchester
 ---
 I had the pleasure to attend the first [PHP Unconference Europe][1] and the [PHP Days in Manchester][2]. I knew there would be a couple of people I wanted to meet in person. Also, I've never been to Manchester before. So I decided I had to go. Happy I did, because I had a great time.
 
-###Warm-Up
+### Warm-Up
 
 Before the actual conference, about 25 people met in a pub for the warm-up party. I was introduced to what the British consider beer (I'd rather call it Mock Beer or Beer Doubles) and quickly got into smalltalk with the other conference attendees. Since the Conf would start at 9am the next day, I left at about 11pm to get some sleep.
 
-###Day 1
+### Day 1
 
 The PHP Unconference in Manchester is the first spin-off of Hamburg's PHP Unconference. So it was no suprise that a good quarter to half of the 100 attendees were german. Judith Andresen kicked off the conference with a short speech before she explained how the Session voting works: you got four votes per day, which you can use to vote for any available Sessions. The Sessions with the most votes wins. There is two Sessions in parallel.
 
@@ -18,15 +18,15 @@ I heard **"Dealing with Errors"** by James (last name?) then. I didnt agree on a
 
 After that I saw [Volker Dusch][18]'s talk [**"Clean Code - Stop wasting my time"**][19]. The talk mainly focused on superfluous commenting in source code, doc blocks and commit messages. Again, quite interesting and also quite entertaining due to Volker's ranting presentation style.
 
-&gt; It's not so much about the talks than about the coffee breaks - Judith Andresen
+> It's not so much about the talks than about the coffee breaks - Judith Andresen
 
-Along the lines of that quote I skipped the next session to meet Mark Baker of PHPExcel then. I only knew Mark from StackOverflow so far and was happy to finally meet him in person. Was a pleasure.
+Along the lines of that quote I skipped the next session to meet [Mark Baker](20) of PHPExcel then. I only knew Mark from StackOverflow so far and was happy to finally meet him in person. Was a pleasure.
 
 The last session of the day was Arne Blankert's talk **"PHPDox &ndash; an alternative to PHPDocumentor"**. PHPDox aims to finally supersede the aged PHPDocumentor tool. At the time of the conference, phpdox was nearing completion and looked quite promising already. It's available on github.
 
 After that it was socializing again. The conference venue, Pitcher and Piano, is a bar chain so we didnt have to relocate for the evening. The second floor was reserved for us. I spent quality time with good talking and a couple of free drinks sponsored by the conf organisers before heading back to the hotel at about 11pm again.
 
-###Day 2
+### Day 2
 
 When we arrived on the second day, they were still cleaning the room. So there was some delay before the voting and the sessions could start.
 
@@ -42,13 +42,13 @@ The final session was **"Setting up Jenkins CI for PHP Projects"** held by Sebas
 
 After that the organisers held a short closing speech and were (rightfully) applauded by the remaining attendees.
 
-###Venue
+### Venue
 
 Originally, another venue was considered. But because there wasn't enough tickets sold when the venue was finalised, the choice was made for the Pitcher and Piano. So, next year, buy your tickets early and give the organizers some more financial room for planning.
 
 Like already mentioned, Pitcher and Piano is a bar chain. Doing a conference in a bar works, as long as there is no other visitors. Unfortunately, the bar would allow other visitors into the bar though. Naturally, there noise level rose the later the day. This was somewhat annoying when attending talks upstairs, because music and talking from the main bar would disturb the speakers. Apart from that, the venue worked suprisingly well for me.
 
-###Catering
+### Catering
 
 Let's admit it: the PHPUnconference in Hamburg spoiled me. You get breakfast, lunch, cake (not a lie) and unlimited coffee, tea and softdrinks for free. All very tasty and easily on par with the catering at a commerical conference, like IPC. If there was no talks at all, I'd still attend for the food alone.
 
@@ -60,7 +60,7 @@ Because of that I bought all my drinks at the bar instead (until we got our vouc
 
 The lunch on both days was solid. So was the dinner on the first day. I remember there was lasagna, chili, curry and assorted salads and side dishes. Vegetarians had their options, too. Some attendees told me they felt the food tasted rather bland. I felt it was okay (and there was salt and pepper available anyways). So, nothing to complain about here.
 
-###PHP Days
+## PHP Days
 
 As part of their sponsoring, [thePHPcc][8] aka [Sebastian Bergmann][9], [Stefan Priesch][10] and [Arne Blankerts][11] offered a two day training after the two days conference. All training fees would go directly to the Unconf, so they actually held the training for free. Because I had already attended both [PHPSummit's][13] held by thePHPcc last year and found them very valuable, I was eager to participate in this training.
 
@@ -72,7 +72,7 @@ Inbetween there was lunch, tea, coffee and cookies.
 
 On the second day, thePHPcc showed us how to create a minimal MVC framework around our new Domain classes. We also talked about how to use the Dependency Injection Principle to avoid tight coupling in our classes. And we talked about how to properly divide functionality into framework, application and domain classes to get the responsibilities right. This was very insightful, even for seasoned developers. The last two hours of the training, we talked about how to deploy our application.
 
-### Conclusion
+## Conclusion
 
 Despite a few shortcomings, I really enjoyed PHP Unconference Manchester. It was a great event with great people and good talks. I am looking forward to attend next year.
 
@@ -100,3 +100,4 @@ In short: thanks to everyone who made these four days possible and awesome.
 [17]: http://www.lornajane.net/pages/about.html
 [18]: http://joind.in/talk/view/2723 "Volker Dusch as joind.in"
 [19]: http://www.slideshare.net/Edorian/php-unconference-europa-clean-code-stop-wasting-my-time "Session Slides"
+[20]: https://twitter.com/Mark_Baker

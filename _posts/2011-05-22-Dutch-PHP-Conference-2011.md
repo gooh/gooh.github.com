@@ -7,7 +7,7 @@ From [May 18th to May 21st I was at DPC][10] in lovely Amsterdam. The line-up fo
 conference promised a lot of interesting talks and good networking opportunities.
 So I had to go.
 
-### Hotel
+## Hotel
 
 The speaker hotel for DPC11 was the ibis Hotel at Amsterdam Central Station.
 I considered staying there at first, but this was about 6km from the conference
@@ -20,7 +20,7 @@ allows controlling various aspects of the room, like TV, blinds, air condition
 and lighting (including color). They also offer a huge list of free movies and
 WiFi is complimentary as well.
 
-### Venue
+## Venue
 
 The [RAI conference center was about 10 minutes walk through Beatrixpark from CitizenM][12].
 There is not much to say about the venue, which in this case means, it was well chosen.
@@ -45,13 +45,13 @@ of [thePHP.cc's QA book][13], which was a rather nice
 and very much unexpected gift, especially since I didn't own that yet and had
 it on my wishlist.
 
-I attended ["XP Principles and Practices" by Sebastian Sch&uuml;rmann][14].
+I attended ["XP Principles and Practices" by Sebastian Schürmann][14].
 I already knew the theory behind XP, but the workshop helped me deepen and
 solidify my knowledge and helped close some gaps. The presenter did a good
 job moderating the workshop in a way that encouraged active participation
 of all attendees. There was a tremendous amount of experience shared this way.
 
-### Conference Day 1
+## Conference Day 1
 
 The main conference started with [Aral Balkan's keynote about "The Art of User Experience: making beautiful, delightful, fun things"][1]. While UX might not
 be a too obvious thing to think about when you are in the bowels of a PHP
@@ -83,16 +83,16 @@ it promised. As I dont follow the ZF2 development too closely it was good to
 learn that a number of things that bug me in ZF1 are on the ToDo list for
 improvement in ZF2.
 
-#### Socializing Event
+### Socializing Event
 
 The [socializing event][15] was scheduled from 2030 to 2300 in Club NL in downtown
 Amsterdam. Unfortunately, that venue didnt work for me at all. The place was
 way too small to accomodate all the attendees and it was definitely too noisy
 to socialize without yelling at each other. I left early.
 
-### Conference Day 2
+## Conference Day 2
 
-The second day at DPC11 started with the [Helgi &THORN;ormar &THORN;orbj&ouml;rnsson keynote about "First Class APIs"][16]. Helgi emphasized the growing
+The second day at DPC11 started with the [Helgi Þormar Þorbjörnsson keynote about "First Class APIs"][16]. Helgi emphasized the growing
 importance of making Data available on the web via dedicated APIs. While this was
 a solid keynote it paled in comparison to the furious keynote Aral Balkan delivered
 on the first day. I also felt it was rather lengthy with the main argument being
@@ -118,7 +118,7 @@ sometimes hard to follow. For the short 45 minutes at DPC it might have made
 sense to just focus on an overview and leave out the obscure real world examples
 of Oxid and PHPBB. Still, a good talk.
 
-The last talk for this day was [David Z&uuml;lke's "Large-Scale Data Processing with Hadoop and PHP"][8]. David is a very entertaining speaker with a skill to sell
+The last talk for this day was [David Zuelke's "Large-Scale Data Processing with Hadoop and PHP"][8]. David is a very entertaining speaker with a skill to sell
 technologies to you in a very short time. Unfortunately, he had a headache this
 day and wasn't as jumpy as usual. But even with this slight handicap, David
 delivered a professional and rock solid, well structured introduction to
@@ -130,7 +130,7 @@ passion and enthusiasm towards their jobs than they show for open source
 projects they work on in their spare time. Though I am not sure I'd subscribe
 to all what was said, this was a solid and entertaining keynote with a clear message.
 
-### Conclusion
+## Conclusion
 
 All in all, I really enjoyed DPC a lot. There was plenty of interesting topics
 to pick from. And despite the failed Social Event, I still had my share

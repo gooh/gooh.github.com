@@ -73,7 +73,7 @@ So instead of wasting your time creating unneeded complexity, you just look at t
 
 **You**: Thanks, I think I know all I need to know right now. I'll send you a diagram in a couple minutes, visualizing what we just talked about.
 
-![UML Model for Car Reservation UseCase - powered by yuml.de](http://yuml.me/diagram/dir:lr/class/%5BReservation|rentalDate;totalCost%5Dreserves-%5BCar|brand;model;id;price;hasAC%5D,%20%5BReservation%5DconfirmedIn-%5BVoucher%5D,%20%5BReservation%5DmadeFor-%5BClient|email%5D)
+![UML Model for Car Reservation UseCase - powered by yuml.de](http://yuml.me/diagram/scruffy/dir:lr/class/%5BReservation|rentalDate;totalCost%5Dreserves-%5BCar|brand;model;id;price;hasAC%5D,%20%5BReservation%5DconfirmedIn-%5BVoucher%5D,%20%5BReservation%5DmadeFor-%5BClient|email%5D)
 
 ## Into Deterministic Programs
 
@@ -81,7 +81,7 @@ Now that you know how to think in the mental model of a Rental Agent, it's time 
 
 So the next step is translating your newfound knowledge into something a computer can execute. In this phase, you will design and ultimately code the components you need in the various layers in what the UseCase only calls "the System".
 
-For your client, these details are largely uninteresting. Whether you use [ActiveRecord][3] or TableDateGateway as a pattern for your persistence layer, whether you use [Singletons][3] or Framework XYZ doesn't matter to him. She trusts you to deliver a professional result.
+For your client, these details are largely uninteresting. Whether you use a Framework or a particular Design pattern doesn't matter to him. She trusts you to deliver a professional result.
 
 She also likely won't be interested in Class diagrams or similar UML artifacts. Whether you use those is up to you. What counts is that you concentrate on modeling your client's view of their problem domain in a way that allows you and him to communicate and you to build a software system around it.
 
@@ -89,5 +89,4 @@ And that's what my initial statement means.
 
 [1]: https://twitter.com/__edorian "Edorian's Twitter Account"
 [2]: https://twitter.com/#!/__edorian/status/165796820608491521 "Quoted Tweet"
-[3]: https://encrypted.google.com/search?q=you+have+failed+please+die&amp;prmd=imvns&amp;tbm=isch
 [4]: http://domaindrivendesign.org/node/132 "supports Ubiquitous Language"

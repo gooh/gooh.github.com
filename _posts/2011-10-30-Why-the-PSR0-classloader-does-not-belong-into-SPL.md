@@ -9,9 +9,7 @@ and Class naming convention.
 
 In case you dont know what the [PSR Group][2] is, here is some background
 
-&gt; In the mid of 2009, several lead developers started an initiative called PHP
-&gt; Standards Group (aka. Framework Interoperability Group), which is mainly focused
-&gt; on interoperability between different Open Source projects.
+> In the mid of 2009, several lead developers started an initiative called PHP Standards Group (aka. Framework Interoperability Group), which is mainly focused on interoperability between different Open Source projects.
 
 Let's not discuss whether it was a good idea to adopt the name PHP Standards Working
 Group although they are not in the position to define anything official for PHP at all.
@@ -26,9 +24,7 @@ in their application easier. I'd claim though that for the majority of PHP users
 setups are not a requirement. Why would those people need to follow PSR-0 just to
 use a piece of native PHP code then?
 
-&gt; Coding conventions are not enforced by compilers. As a result, not following some
-&gt; or all of the rules has no impact on the executable programs created from the
-&gt; source code.
+> Coding conventions are not enforced by compilers. As a result, not following some or all of the rules has no impact on the executable programs created from the source code.
 
 PHP works with any convention, not just one convention. PHP does not define a particular
 coding *standard* for userland code. There is a few tips and [guidelines for how to
