@@ -14,7 +14,7 @@ title : gooh's weblog
 tagline: Agile Webdevelopment and PHP
 author :
   name : Gordon Oheim
-  email : info@gordon-oheim.biz
+  email : blog@gordon-oheim.biz
   github : gooh
   twitter : go_oh
 #  feedburner : feedname
@@ -27,7 +27,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://gooh.github.com
+production_url : http://blog.gordon-oheim.biz
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -106,14 +106,35 @@ JB :
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
 
-  # Settings for sharing helper. 
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
+  # Settings for sharing
+  # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
+  # Add a tweet button => provider : tweet
+  # Add a like button => provider : like (you also need a facebook appid)
+  # Add a plus one button => provider : plusone
+  # Add a HN button => provider : hn
+  # Add them all (i.e. hn + tweet + plusone + like) => provider : all
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
-    
+    provider : [twitter, googleplus, linkedin, hackernews]
+    twitter :
+      size :
+      via :
+      count :
+    facebook :
+      appid : -1
+      layout : button_count
+      font :
+      faces : false
+      width : 90
+    googleplus :
+      size : medium
+      width :
+      annotation : bubble
+    linkedin :
+      counter : right
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
