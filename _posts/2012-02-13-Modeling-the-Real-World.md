@@ -3,7 +3,7 @@ layout: post
 title: Modeling the Real World
 ---
 
-A few days ago, I was asked by [@__edorian][1] whether I'd agree to the statement that developers model the real world. I considered the question briefly and then [replied][2]
+A few days ago, I was asked by [@__edorian][edo] whether I'd agree to the statement that developers model the real world. I considered the question briefly and then [replied][tweet]
 
 > We as Software Developers don't model the real world, we abstract domain concepts into deterministic programs
 
@@ -15,9 +15,9 @@ Let's say you are tasked to build a Online Car Reservation System (it's always c
 
 #### UseCase UC1: Reserve Car
 
-**Primary Actor:** Website Visitor
-**Stakeholders and Interests:** yaddayaddayadda
-**Preconditions:** none
+- **Primary Actor:** Website Visitor
+- **Stakeholders and Interests:** yaddayaddayadda
+- **Preconditions:** none
 
 **Success Guarantee (Postconditions):**
 
@@ -47,7 +47,7 @@ Doesn't sound too difficult. On to modeling.
 
 ## Don't model the real world
 
-Now, let's imagine you start to model the real world from this UseCase. What do you need? Obviously, the Car. What makes up a Car in the real world? Right, it got a motor, and tires and doors and a trunk and windows and windshield wipers and a fuel tank and an exhaust pipe and a handbrake and seats (dont forget the seats) and an AC and rear view mirrors and &hellip; are we there yet? No, because a Car has a couple thousand parts. And the vast majority of them are meaningless for your client's Reservation System.
+Now, let's imagine you start to model the real world from this UseCase. What do you need? Obviously, the Car. What makes up a Car in the real world? Right, it got a motor, and tires and doors and a trunk and windows and windshield wipers and a fuel tank and an exhaust pipe and a handbrake and seats (dont forget the seats) and an AC and rear view mirrors and … are we there yet? No, because a Car has a couple thousand parts. And the vast majority of them are meaningless for your client's Reservation System.
 
 What you really want to model is a Car as it makes sense in the Business Domain of our client's Car Rental Service **and** the purpose of the application at this stage.
 
@@ -73,11 +73,11 @@ So instead of wasting your time creating unneeded complexity, you just look at t
 
 **You**: Thanks, I think I know all I need to know right now. I'll send you a diagram in a couple minutes, visualizing what we just talked about.
 
-![UML Model for Car Reservation UseCase - powered by yuml.de](http://yuml.me/diagram/dir:lr/class/%5BReservation|rentalDate;totalCost%5Dreserves-%5BCar|brand;model;id;price;hasAC%5D,%20%5BReservation%5DconfirmedIn-%5BVoucher%5D,%20%5BReservation%5DmadeFor-%5BClient|email%5D)
+![UML Model for Car Reservation UseCase - powered by yuml.de][yuml]
 
 ## Into Deterministic Programs
 
-Now that you know how to think in the mental model of a Rental Agent, it's time to add your own expert knowledge. The UML above is [good for communicating with your client][4], but it's not a runnable program. Don't confuse it with class diagrams. It's just the conceptual basis.
+Now that you know how to think in the mental model of a Rental Agent, it's time to add your own expert knowledge. The UML above is [good for communicating with your client][ddd], but it's not a runnable program. Don't confuse it with class diagrams. It's just the conceptual basis.
 
 So the next step is translating your newfound knowledge into something a computer can execute. In this phase, you will design and ultimately code the components you need in the various layers in what the UseCase only calls "the System".
 
@@ -87,6 +87,7 @@ She also likely won't be interested in Class diagrams or similar UML artifacts. 
 
 And that's what my initial statement means.
 
-[1]: https://twitter.com/__edorian "Edorian's Twitter Account"
-[2]: https://twitter.com/#!/__edorian/status/165796820608491521 "Quoted Tweet"
-[4]: http://domaindrivendesign.org/node/132 "supports Ubiquitous Language"
+[edo]: https://twitter.com/__edorian "Edorian's Twitter Account"
+[tweet]: https://twitter.com/#!/__edorian/status/165796820608491521 "Quoted Tweet"
+[ddd]: http://domaindrivendesign.org/node/132 "supports Ubiquitous Language"
+[yuml]: http://yuml.me/diagram/dir:lr/class/%5BReservation|rentalDate;totalCost%5Dreserves-%5BCar|brand;model;id;price;hasAC%5D,%20%5BReservation%5DconfirmedIn-%5BVoucher%5D,%20%5BReservation%5DmadeFor-%5BClient|email%5D
