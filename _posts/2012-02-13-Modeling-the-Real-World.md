@@ -73,7 +73,7 @@ So instead of wasting your time creating unneeded complexity, you just look at t
 
 **You**: Thanks, I think I know all I need to know right now. I'll send you a diagram in a couple minutes, visualizing what we just talked about.
 
-![UML Model for Car Reservation UseCase - powered by yuml.de](http://yuml.me/diagram/scruffy/dir:lr/class/%5BReservation|rentalDate;totalCost%5Dreserves-%5BCar|brand;model;id;price;hasAC%5D,%20%5BReservation%5DconfirmedIn-%5BVoucher%5D,%20%5BReservation%5DmadeFor-%5BClient|email%5D)
+![UML Model for Car Reservation UseCase - powered by yuml.de](http://yuml.me/diagram/dir:lr/class/%5BReservation|rentalDate;totalCost%5Dreserves-%5BCar|brand;model;id;price;hasAC%5D,%20%5BReservation%5DconfirmedIn-%5BVoucher%5D,%20%5BReservation%5DmadeFor-%5BClient|email%5D)
 
 ## Into Deterministic Programs
 
