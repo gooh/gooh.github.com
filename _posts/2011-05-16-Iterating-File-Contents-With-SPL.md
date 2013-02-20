@@ -5,7 +5,7 @@ title: Iterating File Contents with SPL
 
 I noticed a lot of people are still using the classic filepointer approach to read a file line by line:
 
-```php
+``` php
 $handle = fopen ("file.txt", "r");
 while (!feof($handle)) {
     $buffer = fgets($handle);
