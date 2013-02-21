@@ -33,4 +33,4 @@ The Schema file is currently split into multiple smaller files. This eases maint
 
   [1]: http://www.phpunit.de/manual/current/en/appendixes.configuration.html
   [2]: https://github.com/gooh/phpunit-schema
-  [3]: {{ POST_ASSET_PATH }}/2011-04-05/ContentAssist.png
+  [3]: {{ JB.POST_ASSET_PATH }}/2011-04-05/ContentAssist.png
