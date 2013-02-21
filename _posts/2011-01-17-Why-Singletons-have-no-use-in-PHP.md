@@ -65,5 +65,5 @@ Hopefully this is enough to make you reconsider next time you think about using 
 [8]: http://sebastian-bergmann.de/archives/882-Testing-Code-That-Uses-Singletons.html
 [9]: https://secure.wikimedia.org/wikipedia/en/wiki/Erich_Gamma
 [10]: http://www.informit.com/articles/printerfriendly.aspx?p=1404056
-[UML]: {{ JB.POST_ASSET_PATH }}/2011-01-17/singleton-class-diagram.png
-[HELP]: {{ JB.POST_ASSET_PATH }}/2011-01-17/Singleton.png
+[UML]: /assets/posts//2011-01-17/singleton-class-diagram.png
+[HELP]: /assets/posts/2011-01-17/Singleton.png
