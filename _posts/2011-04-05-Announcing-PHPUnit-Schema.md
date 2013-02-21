@@ -20,7 +20,7 @@ To apply the Schema to a configuration file, you have to declare the Schema Name
 
 Assuming you are working with a Schema-aware editor (like Eclipse) you should get Content Assist and limited Code Completion then:
 
-![PHPUnit Code Completion in Zend Studio](http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-04-05/DvoeugziugHDficnvvxlEihpiFnlFujsuykevlcasnfmpyyqCuxjldeuymbx/ContentAssist.png.thumb100.png?content_part=lBazhtDHCkAGiHGfIeqm)
+![PHPUnit Code Completion in Zend Studio][3]
 
 ## Notes
 
@@ -33,3 +33,4 @@ The Schema file is currently split into multiple smaller files. This eases maint
 
   [1]: http://www.phpunit.de/manual/current/en/appendixes.configuration.html
   [2]: https://github.com/gooh/phpunit-schema
+  [3]: {{ ASSET_PATH }}/img/2011-04-05/ContentAssist.png

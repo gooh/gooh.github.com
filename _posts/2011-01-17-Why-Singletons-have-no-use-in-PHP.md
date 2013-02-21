@@ -15,7 +15,7 @@ You'll often find Singletons as wrappers around database adapters to limit the a
 
 ## Implementing Singletons
 
-![UML diagram for a Singleton in PHP](http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-02-14/jpHEcldfsCfkDDhxfnEuAsiHqqzGgqgksqlxJGGtlyHBwwGidjBGjvpykeuj/Singleton.gif.thumb100.gif?content_part=ImwpIkmEGkfjnyHgJnHg)
+![UML class diagram for a Singleton in PHP][UML]
 
 Unlike some other patterns, creating a Singleton is easy.
 
@@ -53,7 +53,7 @@ When working with PHP, Singletons cannot live up to their full potential due to 
 
 Hopefully this is enough to make you reconsider next time you think about using a Singleton. Should you still have trouble deciding, use the following cheatsheet:
 
-![Helpful diagram in case you forget whether you need a Singleton](http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-01-14/AjfBodqlAaipBjhuGbGIBwoFsuGgojjmoIGBAgjJkDwgttycEfGviAbrqAHC/Singleton.png.thumb100.png?content_part=fxtwkqnutaeahzvvGiFw)
+![Helpful diagram in case you forget whether you need a Singleton][HELP]
 
 [1]: https://secure.wikimedia.org/wikipedia/en/wiki/Singleton_pattern
 [2]: https://secure.wikimedia.org/wikipedia/en/wiki/Design_pattern_%28computer_science%29
@@ -65,3 +65,5 @@ Hopefully this is enough to make you reconsider next time you think about using 
 [8]: http://sebastian-bergmann.de/archives/882-Testing-Code-That-Uses-Singletons.html
 [9]: https://secure.wikimedia.org/wikipedia/en/wiki/Erich_Gamma
 [10]: http://www.informit.com/articles/printerfriendly.aspx?p=1404056
+[UML]: {{ ASSET_PATH }}/img/2011-01-17/singleton-class-diagram.png
+[HELP]: {{ ASSET_PATH }}/img/2011-01-17/Singleton.png

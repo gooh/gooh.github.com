@@ -10,7 +10,7 @@ I took and passed the Zend Certified Engineer PHP 5.3 exam recently at my local 
 
 > Has successfully completed the test requirements and demonstrated the knowledge and skills to be recognized as a Zend Certified Engineer PHP 5.3
 
-![My ZCE certificate](http://getfile1.posterous.com/getfile/files.posterous.com/temp-2011-01-20/joptCrvojnnClvCcjGhgygkyCGpEvmDphuvGiGrDbnyfByorBEprxAkJnajB/001.JPG.thumb100.jpg?content_part=sbgBFhxmfwfrtvEeIzwe)
+![My ZCE certificate][MYZCE]
 
 ## What does it mean to be a ZCE?
 
@@ -60,3 +60,4 @@ Find out how other developers think about the Zend Certified Engineer 5.3 exam a
 [8]: http://www.lornajane.net/posts/2010/Preparing-for-ZCE-5.3
 [9]: http://devzone.zend.com/article/12647-Passing-the-ZCE-PHP-5.3-certification-exam
 [10]: http://www.sjoerdmaessen.be/2010/12/30/passing-the-php-5-3-zce-exam/
+[MYZCE]: {{ ASSET_PATH }}/img/2011-01-20/zce-certificate.jpg
