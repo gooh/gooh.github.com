@@ -60,4 +60,4 @@ Find out how other developers think about the Zend Certified Engineer 5.3 exam a
 [8]: http://www.lornajane.net/posts/2010/Preparing-for-ZCE-5.3
 [9]: http://devzone.zend.com/article/12647-Passing-the-ZCE-PHP-5.3-certification-exam
 [10]: http://www.sjoerdmaessen.be/2010/12/30/passing-the-php-5-3-zce-exam/
-[MYZCE]: {{ ASSET_PATH }}/img/2011-01-20/zce-certificate.jpg
+[MYZCE]: {{ POST_ASSET_PATH }}/2011-01-20/zce-certificate.jpg
