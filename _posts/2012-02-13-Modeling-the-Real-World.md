@@ -93,4 +93,4 @@ And that's what my initial statement means.
 [edo]: https://twitter.com/__edorian "Edorian's Twitter Account"
 [tweet]: https://twitter.com/#!/__edorian/status/165796820608491521 "Quoted Tweet"
 [ddd]: http://domaindrivendesign.org/node/132 "supports Ubiquitous Language"
-[yuml]: http://yuml.me/diagram/dir:lr/class/%5BReservation|rentalDate;totalCost%5Dreserves-%5BCar|brand;model;id;price;hasAC%5D,%20%5BReservation%5DconfirmedIn-%5BVoucher%5D,%20%5BReservation%5DmadeFor-%5BClient|email%5D
+[yuml]: http://yuml.me/diagram/scruffy;dir:lr/class/%5BReservation|rentalDate;totalCost%5Dreserves-%5BCar|brand;model;id;price;hasAC%5D,%20%5BReservation%5DconfirmedIn-%5BVoucher%5D,%20%5BReservation%5DmadeFor-%5BClient|email%5D
