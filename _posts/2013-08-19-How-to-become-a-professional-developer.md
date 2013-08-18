@@ -8,8 +8,11 @@ tags: [identity, ethos, professionalism]
 
 I've got an eMail today. The sender wanted to let me know that he was impressed by the clarity of one my answers on Stack Overflow. I admit I am flattered each time this happens, because knowing that my contribution helped someone feels good.
 
-He then asked me whether there was any general advice I'd like to pass on to a young developer. That was a rather difficult question for me, because anwering concrete questions on Stack Overflow is quite different from giving general advice to an aspiring developer. Basically, if you are too prescriptive, you sound like an elitist bigot. But when you are new to something, concrete advice might be more helpful.  
-So I chose to do both, explaining the things I learned to value in my career, as well as offering some reading I know most of my fellow developers would agree is worth learning.
+He then asked me whether there was any general advice I'd like to pass on to a young developer. That was a rather difficult question for me, because answering concrete questions on Stack Overflow is quite different from giving general advice to an aspiring developer.
+
+General advice is hard. Basically, if you are too prescriptive, you sound like an elitist bigot. But when you are new to something, concrete advice might be more helpful.  
+
+So I chose to do both, explain the things I learned to value in my career, as well as offering some reading I know most of my fellow developers would agree is worth learning.
 
 After I had send my reply, he wrote again stating that this was exactly what he was hoping for, which obviously made me happy again. 
 
