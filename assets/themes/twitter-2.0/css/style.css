@@ -64,6 +64,6 @@ html, body {
   color:#FFF;
 }
 
-p, li {
+blockquote p, p, li {
   margin-bottom:8px;
 }
