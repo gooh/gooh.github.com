@@ -44,6 +44,6 @@ Now I figured if he found my advice useful, someone else might find, too. So I a
 >  
 >You definitely want to google SOLID and GRASP if you are doing object-oriented programming. There is also the Google Clean Code talks by Misko Hevery worth checking out to help you with writing testable code.
 >  
->Anyway, if young just got started, this is all an awful lot to consider. But it's a journey and it takes time and you need patience and you need the dedication. But you know what: if in five to ten years from now, you'll open your inbox and find a guy telling you how you impressed him and he's asking your for guidance, you'll know it was totally worth it. So thank you for making my journey worth it.
+>Anyway, if you just got started, this is all an awful lot to consider. But it's a journey and it takes time and you need patience and you need the dedication. But you know what: if in five to ten years from now, you'll open your inbox and find a guy telling you how you impressed him and he's asking your for guidance, you'll know it was totally worth it. So thank you for making my journey worth it.
 
 And that's it. Obviously, this list and advice does not pretend to be complete or correct. Like I said, this is the things I came to value from when I started my own (still unfinished) journey up to now. What are yours?
