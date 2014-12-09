@@ -17,7 +17,7 @@ just are baffled how time flies but work stays.
 
 There is a simple common sense approach to solving that problem when working in a team.
 
-## The **90 Minute Rule** states: 
+### The **90 Minute Rule** states: 
 
 > If you didn't made significant progress within the last 90 minutes, ask for help!
 
@@ -31,7 +31,7 @@ to find solutions to problems, so some time investment is expected.
 
 It should be *as early as possible*, because it helps no one if you are stuck at the 
 same problem for the whole day. You are just burning money for no good reason. In order 
-to achieve the team's goals, you are responsible to indicate when you need their help.
+to achieve the team goals, you are responsible to indicate when you need their help.
 
 Note that it's not that important *what* help you get, as long as you get it.
 
@@ -43,6 +43,10 @@ I wished I had fetched him earlier.
 Another example might be you finding yourself unable to get into the flow. One 
 of your coworkers might suggest to [pair program][pairs] with you for an hour.
 Having a coworker at your side can already help to you channel your attention.
+
+Also, while it's called *the 90 Minute Rule*, there is no reason you need to stick 
+with that number. If 90 minutes feels too long for you, pick a time that feels more 
+appropriate for your team needs.
 
 **TL;DR:** when you need help, ask in time.
 
