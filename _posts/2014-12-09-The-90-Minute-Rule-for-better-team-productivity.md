@@ -17,7 +17,7 @@ just are baffled how time flies but work stays.
 
 There is a simple common sense approach to solving that problem when working in a team.
 
-The **90 Minute Rule** states: 
+## The **90 Minute Rule** states: 
 
 > If you didn't made significant progress within the last 90 minutes, ask for help!
 
@@ -44,7 +44,7 @@ Another example might be you finding yourself unable to get into the flow. One
 of your coworkers might suggest to [pair program][pairs] with you for an hour.
 Having a coworker at your side can already help to you channel your attention.
 
-TL;DR: when you need help, take it to the team.
+**TL;DR:** when you need help, ask in time.
 
   [cats]: http://www.catgifpage.com
   [rdd]: http://en.wikipedia.org/wiki/Rubber_duck_debugging
